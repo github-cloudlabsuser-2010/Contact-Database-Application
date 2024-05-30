@@ -27,6 +27,6 @@ jobs:
     - name: 'Deploy to Azure WebApp'
       uses: azure/webapps-deploy@v2
       with:
-        app-name: '<Your Web App Name>'  # Set your Azure Web App name
+        app-name: 'WebAppName7979'  # Set your Azure Web App name
         publish-profile: ${{ secrets.AzureAppService_PublishProfile }}  # Set your Azure publish profile
         package: '.'  # Path to your app's root directory
