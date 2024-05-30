@@ -13,9 +13,6 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
 
-    - name: Build app
-      run: npm run build  # Adjust this command based on your build process
-
     - name: 'Deploy to Azure WebApp'
       uses: azure/webapps-deploy@v2
       with:
